@@ -4,7 +4,7 @@ import inspect
 from torch.nn.modules import activation
 import networkx as nx
 
-# Get the source code of ReLU class
+# Get the source code of activation
 source_code = inspect.getsource(activation)
 
 # Parse the source code into an AST
