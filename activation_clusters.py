@@ -155,7 +155,7 @@ def jaccard_index(set1, set2):
     union = len(set1.union(set2))
     return intersection / union
 
-# Assuming you have the actual structure from PyTorch in phase 1
+# The actual structure from PyTorch in phase 1
 actual_structure = [
     {"ReLU"}, {"ReLU6"}, {"ELU"}, {"CELU"},{"GLU"}, {"Hardtanh"}, {"Hardshrink"},{"Hardsigmoid"}, {"Hardswish"}, {"LeakyReLU"},{"LogSigmoid"}, {"LogSoftmax"}, {"MultiheadAttention"},{"PReLU"}, {"RReLU"}, {"Sigmoid"}, {"SiLU"}]
   
